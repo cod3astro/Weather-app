@@ -1,0 +1,400 @@
+*{
+    margin: 0;  padding: 0;
+}
+
+body {
+    width: 100%; height: 100vh;
+    background-color: #000; color: white;
+}
+
+#container {
+    width: 80%; height: 90vh;
+    margin: 10px auto; display: flex;
+    flex-direction: row; 
+}
+
+#sideBar {
+    width: 7%; height: 81.5vh;
+    background-color: #3D405B; display: flex;
+    margin: 10px; border-radius: 20px; flex-direction: column;
+    align-items: center; padding-top: 70px;
+}
+
+#name {
+    display: none;
+}
+
+.sideBar {
+    margin: 10px 0; display: flex;
+    flex-direction: column; align-items: center;
+    justify-content: center;
+}
+
+.pSideBar {
+    margin: 15px; font-size: 1.2em;
+}
+
+#sideBarLinks {
+    text-decoration: none; color: white;
+}
+
+#cover {
+    width: 70%;
+}
+
+input {
+    width: 70%;  background-color: #3D405B;
+    height: 6vh; margin: 10px 10px 10px 0;
+    border-radius: 20px; border: none;
+}
+
+#btn {
+    width: 25%;  height: 6vh; background-color: #3D405B;
+    border: none; color: white; font-size: 1.2em; border-radius: 20px;
+}
+
+#city-name {
+    font-size: 2.5em;
+}
+
+#description {
+    font-size: 2em;
+}
+
+#tempsection {
+    margin: 40px 0; font-size: 2.4em;
+}
+
+#airCondition {
+    width: 100%; height: 30%;
+    background-color: #3D405B; border-radius: 30px;
+    display: flex; flex-direction: column;
+}
+
+#minAirCondition {
+    display: flex; flex-direction: row;
+}
+
+#coverConditions {
+    display: flex; flex-direction: row; margin: 20px;
+}
+
+.support {
+    display: flex; flex-direction: row; margin: 20px;
+}
+
+#titleCondition {
+    margin: 20px 20px 0 20px ;
+}
+
+#iconCondition {
+    font-size: 1.4em;
+}
+
+h6 {
+    font-size: 1.2em; color: aqua;
+    margin-right: 450px;  margin-left: 20px;
+}
+
+#none {
+    font-size: 1.2em; color: aqua;
+    margin: 0; margin-left: 20px;
+}
+
+#minAirConditions {
+    display: flex; flex-direction: column;
+}
+
+#forecast {
+    width: 100%; height: 30%;
+    border-radius: 30px; background-color: #3D405B; 
+    margin-bottom: 15px; display: flex; flex-direction: column;
+}
+
+#headForecast {
+    margin: 20px ;
+}
+
+#spanForecast {
+    display: flex; flex-direction: row;
+    text-align: center; margin-top: 20px;
+}
+
+.d-margin {
+    text-align: center; margin-right: 40px;
+}
+
+#minForecast { 
+   width: 80%; border-right: 1px solid #fff;
+}
+
+#minForecasts {
+    width: 17%; border: none;
+}
+
+.minForecast {
+    text-align: center;
+}
+
+#mainForecast {
+    width: 100%; height: 30%; display: flex;
+    flex-direction: row; justify-content: space-between;
+}
+
+#svgsun {
+    margin: 14px 50px 14px 14px;
+}
+
+#lContainer {
+    width: 20%; height: 90vh;
+    background-color: #3D405B; margin: 10px 15px;
+    border-radius: 30px;
+}
+
+.mainForecast {
+    font-size: 2em;
+}
+
+.mainSection {
+    margin: 20px;
+}
+
+.mainpSection {
+    margin: 10px;
+}
+
+#lContainer {
+    display: flex; flex-direction: column; margin: 10px;
+}
+
+#titleContainer {
+    margin: 20px;
+}
+
+#clone {
+    width: 70%; display: flex; margin-left: 21px;
+    flex-direction: row; border-bottom: 1px solid white;
+    padding: 17px; padding-left: 0;
+}
+
+#clon {
+    width: 70%; display: flex; margin-left: 21px;
+    flex-direction: row; padding: 15px; padding-left: 0;
+}
+
+#uvIndex, #rainChance, #wind, #temp {
+    margin-left: 20px;
+}
+
+#cities {
+    background-color: #3D405B; color: white;
+    text-decoration: none; width: 80%;
+    margin-top: 10px; height: 90vh;
+    border-radius: 30px; padding: 0 30px;
+}
+
+.cities {
+    font-size: 3em; color: aqua;
+    border-bottom: 3px solid aqua;
+    width: 100%; text-align: center; margin-bottom: 9px;
+}
+
+#cites {
+    font-size: 2em; color: white; text-decoration: none;
+}
+
+li {
+    margin: 15px 25px;
+}
+
+.date {
+    color: aqua;
+}
+
+.aqua {
+    color: aqua;
+}
+
+#svgs {
+    display: none;
+}
+
+#map {
+    width: 88%; height: 90vh;
+    margin-top: 10px; border-radius: 30px;
+}
+
+#flexRow {
+    display: flex; flex-direction: row;
+    justify-content: space-between; width: 88%; height: 90vh;
+}
+
+#about {
+    background-color: #3D405B; border-radius: 30px;
+    margin-top: 10px; width: 88%; height: 90vh;
+}
+
+.socials {
+    color: white; font-size: 1.2em;
+    margin: 10px;  text-align: center;
+}
+
+.social {
+    text-decoration: none; font-size: 1.1em;
+}
+
+.h2About {
+    color: aqua; margin: 12px 30px;
+}
+
+.eru {
+    margin: 0 30px; font-size: 1.2em;
+}
+
+.pSocial {
+    color: aqua; text-decoration: none;
+    font-size: 1.3em;
+}
+
+#insta {
+    color: firebrick ;
+}
+
+#github {
+    color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+    #container {
+        background-color: #000; margin: 0;
+        padding: 0; display: flex;
+        flex-direction: column;
+    }
+
+    #sideBar {
+        width: 100vw; padding: 0; height: 15vh;
+        display: flex; flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .minWidth {
+        display: flex;  flex-direction: row;
+    }
+
+    .sideBar {
+        padding: 0; display: flex; flex-direction: row;
+    }
+
+    #sideBarIcons {
+        display: none;
+    }
+
+    #name {
+        margin-left: 15px; font-size: 1.7em;
+        display: flex;  color: aqua;
+    }
+
+    #cover {
+        display: flex; flex-direction: column;
+    }
+
+    .mainSection1 {
+        display: flex; flex-direction: column; margin: 10px 20px;
+    }
+
+    #svgsun, #getForecast {
+        display: none;
+    }
+
+    #tempsection {
+        margin-top: 10px; width: 100vw;
+    }
+
+    #mainSection {
+    margin: 10px;
+    }
+
+    #forecast {
+        margin: 15px;  width: 100vw; height: 30vh;
+    }
+
+    #minForecast { 
+        width: 80vw; border-right: 1px solid #fff;
+     }
+
+    #airCondition {
+        margin: 15px;  width: 100vw; height: 30vh;
+    }
+
+    #lContainer {
+        display: grid; grid-gap: 10px; width: 100vw;
+        grid-template-rows: auto 1fr; height: 75vh;
+    }
+
+    .classes {
+        width: 100vw; display: grid; grid-gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #clone {
+        border-bottom: none; border-right: 1px solid white; 
+        border-bottom: 1px solid #fff;
+    }
+
+    .historical-day {
+        width: 15vw; padding: 20px; text-align: center;
+    }
+
+    h6 {
+        width: 50vw;  margin-right: 0;
+    }
+
+    .dun {
+        justify-content: space-between;
+    }
+
+    #btn {
+        display: none;
+    }
+    
+#none {
+    width: 50vw; font-size: 1.2em;  color: aqua; margin: 0;
+}
+
+#wind, #uvIndex {
+    margin-left: 10px;
+}
+
+#cities {
+    display: flex; flex-direction: column; width: 100vw;
+    padding: 0; margin: 0 10px; border-radius: 20px;
+}
+
+#none {
+    margin: 5px 0 0 10px;
+}
+
+#tenPx {
+    margin-top: 11px;
+}
+
+.cities {
+    border-bottom: 2px solid aqua; width: 100vw; margin: 0;
+    background-color: #000;
+}
+
+#flexRow {
+    display: flex; flex-direction: column; background-color: #000;
+    width: 100vw;
+}
+
+#about {
+    background-color: #000;
+    width: 100vw;
+}
+
+#map {
+    width: 100vw;  margin: 10px 0 0 10px;
+}
+
+}
