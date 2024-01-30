@@ -272,9 +272,9 @@ li {
     }
 
     #sideBar {
-        width: 100vw; padding: 0; height: 15vh;
-        display: flex; flex-direction: row;
-        justify-content: space-between;
+        width: 120vw; padding: 0; height: 15vh;
+        display: flex; flex-direction: row; font-size: 1em;
+        justify-content: space-between; 
     }
 
     .minWidth {
@@ -297,9 +297,14 @@ li {
     #cover {
         display: flex; flex-direction: column;
     }
-
+    /*
     .mainSection1 {
         display: flex; flex-direction: column; margin: 10px 20px;
+    }
+    */
+
+    #city-name, #description, #tempsection {
+        font-size: 1em;
     }
 
     #svgsun, #getForecast {
@@ -311,28 +316,32 @@ li {
     }
 
     #mainSection {
-    margin: 10px;
+    margin: 10px; 
     }
 
     #forecast {
-        margin: 15px;  width: 100vw; height: 30vh;
+        margin: 15px;  width: 120vw; height: 30vh; 
+    }
+
+    #forecast-time, #minForcast {
+        font-size: 1em;
     }
 
     #minForecast { 
-        width: 80vw; border-right: 1px solid #fff;
+        width: 120vw; border-right: 1px solid #fff;
      }
 
     #airCondition {
-        margin: 15px;  width: 100vw; height: 30vh;
+        margin: 15px;  width: 120vw; height: 30vh;
     }
 
     #lContainer {
-        display: grid; grid-gap: 10px; width: 100vw;
-        grid-template-rows: auto 1fr; height: 75vh;
+        display: grid; grid-gap: 10px; width: 120vw;
+        grid-template-rows: auto 1fr; height: 75vh; margin-left: 20px;
     }
 
     .classes {
-        width: 100vw; display: grid; grid-gap: 10px;
+        width: 120vw; display: grid; grid-gap: 10px;
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -342,11 +351,11 @@ li {
     }
 
     .historical-day {
-        width: 15vw; padding: 20px; text-align: center;
+        width: 15vw; padding: 20px; text-align: center; font-size: 1em;
     }
 
     h6 {
-        width: 50vw;  margin-right: 0;
+        width: 60vw;  margin-right: 0; font-size: 1em;
     }
 
     .dun {
@@ -357,44 +366,49 @@ li {
         display: none;
     }
     
-#none {
-    width: 50vw; font-size: 1.2em;  color: aqua; margin: 0;
-}
+    #none {
+    width: 60vw; font-size: 1.2em;  color: aqua; margin: 0; font-size: 1em;
+    }
 
-#wind, #uvIndex {
-    margin-left: 10px;
-}
+    #wind, #uvIndex {
+    margin-left: 10px; font-size: 1em;
+    }
 
-#cities {
-    display: flex; flex-direction: column; width: 100vw;
-    padding: 0; margin: 0 10px; border-radius: 20px;
-}
+    #temp, #rainChance {
+        font-size: 1em;
+    }
+    #cities {
+    display: flex; flex-direction: column; width: 120vw;
+        padding: 0; margin: 0 10px; border-radius: 20px;
+    }
 
-#none {
+    #none {
     margin: 5px 0 0 10px;
-}
+    }
 
-#tenPx {
+    #tenPx {
     margin-top: 11px;
-}
+    }
 
-.cities {
-    border-bottom: 2px solid aqua; width: 100vw; margin: 0;
-    background-color: #000;
-}
+    #d
 
-#flexRow {
+    .cities {
+    border-bottom: 2px solid aqua; width: 120vw; margin: 0;
+        background-color: #000;
+    }
+
+    #flexRow {
     display: flex; flex-direction: column; background-color: #000;
-    width: 100vw;
-}
+        width: 120vw;
+    }
 
-#about {
+    #about {
     background-color: #000;
-    width: 100vw;
-}
+        width: 120vw;
+    }
 
-#map {
-    width: 100vw;  margin: 10px 0 0 10px;
-}
+    #map {
+    width: 120vw;  margin: 10px 0 0 10px;
+    }
 
-}
+    }
