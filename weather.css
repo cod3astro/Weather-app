@@ -337,17 +337,17 @@ li {
 
     #lContainer {
         display: grid; grid-gap: 10px; width: 120vw;
-        grid-template-rows: auto 1fr; height: 75vh; margin-left: 20px;
+        grid-template-rows: auto 1fr; height: 100vh; margin-left: 20px;
     }
 
     .classes {
-        width: 100vw; display: grid; grid-gap: 10px;
-        grid-template-columns: repeat(3, 1fr);
+        width: 120vw; display: grid; grid-gap: 10px;
+        grid-template-columns: repeat(3, 1fr); height: 
     }
 
     #clone {
         border-bottom: none; border-right: 1px solid white; 
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #fff; 
     }
 
     .historical-day {
