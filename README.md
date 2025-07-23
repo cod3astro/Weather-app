@@ -5,4 +5,4 @@ Search for current weather by city name
 
 Display temperature, humidity, and weather conditions
 
-Responsive and clean user interface
+Responsive and clean user interface.
