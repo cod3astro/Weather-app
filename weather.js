@@ -10,7 +10,7 @@ fetchForecast(selectedCity)
 
     function fetchForecast(city) {
 // Linking weather apiKey
-const apiKey = "7053c50939314f848740e207b13566c4";
+const apiKey = "8f7a6a93d1e4462ea549799a40340299";
 // const city = "Lagos";
 
 fetch(`https://api.weatherbit.io/v2.0/current?city=${city}&key=${apiKey}`)
